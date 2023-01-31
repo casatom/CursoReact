@@ -1,0 +1,36 @@
+h1{
+    color: red;/*comentario en css*/
+    text-transform: uppercase; 
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    font-style: italic;
+    border-bottom: 3px solid blue;
+}
+
+p{
+    font-family: arial;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.destacados{
+    font-size: 20px;
+    color: orange;
+}
+
+#caja{
+    width: 200px;
+    height: auto;
+    background-color: #CF96CA;
+    /*border: 3px solid black;*/
+    border-top: 5px solid bisque;
+    border-bottom: 7px dashed red;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 15px;
+}
