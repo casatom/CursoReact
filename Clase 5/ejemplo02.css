@@ -1,0 +1,29 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.textolargo {
+    background-color: aquamarine;
+    column-count: 5;
+    column-gap: 10px;
+    padding: 15px;
+    border-radius: 71px 23px 71px 22px;
+    border: 10px double #ffffff;
+}
+
+h2,
+.destacados {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.iconos {
+    color: cadetblue;
+
+    font-size: 40px;
+}
