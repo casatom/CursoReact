@@ -1,0 +1,17 @@
+.contenedor{
+
+    background-color: aqua;
+    height: 500px;
+    width: 700px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.item{
+    background-color: gray;
+    width: 50px;
+    height: 100px;
+    margin: 10px;
+    font-size: 16px;
+}

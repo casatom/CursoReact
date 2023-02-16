@@ -1,0 +1,16 @@
+.contenedor{
+
+    background-color: aqua;
+    height: 500px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.item{
+    background-color: gray;
+    width: 50px;
+    height: 100px;
+    margin: 10px;
+    font-size: 16px;
+}

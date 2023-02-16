@@ -1,0 +1,37 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+div:hover{
+    
+    background-color: rgb(39, 150, 113);
+
+}
+span{
+    background-color: cadetblue;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+span::after{
+    content: 'despues';
+    background-color:brown ;
+}
+
+span::before{
+    content: 'antes';
+    background-color: bisque;
+}
+
+
+p::first-line{
+    color:blueviolet
+}
+
+::placeholder{
+    color: blue;
+    font-size: 1.5em;
+}

@@ -1,0 +1,18 @@
+.contenedor{
+
+    background-color: aqua;
+    display: inline-flex;
+    
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+}
+
+.item{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,78 @@
+body{
+    display: flex;
+
+    justify-content: center;
+}
+
+.contenedor-principal{
+
+    height: 300px;
+    width: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+
+}
+
+.primera-caja{
+
+    background-color: red;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;;
+
+    font: bold;
+
+    color: white;
+
+    height: 100px;
+    width: 100px;
+
+}
+
+.segunda-caja{
+
+    background-color: blue;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+
+    font: bold;
+
+    color: white;
+
+    height: 100px;
+    width: 100px;
+    
+}
+
+.tercera-caja{
+
+    background-color: green;
+
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+
+    font: bold;
+
+    color: white;
+
+    
+    height: 100px;
+    width: 100px;
+}
