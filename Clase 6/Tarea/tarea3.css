@@ -15,64 +15,31 @@ body{
 
 
 }
-
-.primera-caja{
-
-    background-color: red;
-    
+.caja{
     display: flex;
 
-    justify-content: center;
-    align-items: center;
+   justify-content: center;
+   align-items: center;
 
-    font-size: 20px;;
+   font-size: 20px;;
 
-    font: bold;
+   font: bold;
 
-    color: white;
+   color: white;
 
-    height: 100px;
-    width: 100px;
+   height: 100px;
+   width: 100px;
 
+}
+
+.primera-caja{
+   background-color: red;
 }
 
 .segunda-caja{
-
-    background-color: blue;
-    
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    font-size: 20px;
-
-    font: bold;
-
-    color: white;
-
-    height: 100px;
-    width: 100px;
-    
+   background-color: blue;
 }
 
 .tercera-caja{
-
-    background-color: green;
-
-    
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    font-size: 20px;
-
-    font: bold;
-
-    color: white;
-
-    
-    height: 100px;
-    width: 100px;
+   background-color: green;
 }
