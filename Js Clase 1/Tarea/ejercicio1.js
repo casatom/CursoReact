@@ -2,24 +2,28 @@ const distancia = prompt('Ingrese una distancia a recorrer',' ');
 
 distancia = parseInt(distancia)
 
+const transporte = '';
+
 if(0<distancia && distancia<1000){
-    document.write('debe recorrer en pie');
+    transporte ='pie';
 }
 
 if(distancia >= 1000 && distancia < 10000 ){
-    document.write('debe recorrer en bicicleta');
+    transporte ='bicicleta';
 }
 
 if(distancia >= 10000 && distancia < 30000){
-    document.write('debe recorrer en colectivo');
+    transporte ='colectivo';
 }
 
 if(distancia < 100000 && distancia >= 30000){
-    document.write('debe recorrer en auto');
+    transporte ='auto';
 }
 
 if(distancia >= 100000 ){
-    document.write('debe recorrer en avion');
+    transporte ='avion';
 }
+
+document.write(`debe recorrer en ${transporte}`)
 
 
