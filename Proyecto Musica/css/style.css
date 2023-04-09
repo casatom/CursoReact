@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 header {
   background-color: #333;
   color: #fff;
@@ -10,6 +11,24 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
+}
+
+/* Estilo para el título en el header 
+.header-title {
+  margin-right: 5px;
+}*/
+
+
+.holder {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.holder h1 {
+  width: 100px;
+  margin: 0 10px;
+  margin-top: 30px;
 }
 
 nav ul {
@@ -103,16 +122,12 @@ footer {
 }
 
 #generos li {
-  flex-basis: calc(33.33% - 20px);
+  flex-basis: calc(30% - 20px);
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #ddd;
-  padding: 20px;
+  padding: 15px;
   display: flex;
-}
-
-#generos li:last-child {
-  margin-right: 0;
 }
 
 #generos img {
@@ -148,7 +163,7 @@ footer {
 }
 
 #lanzamientos li {
-  flex-basis: calc(33.33% - 20px);
+  flex-basis: calc(30% - 20px);
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #ddd;
@@ -250,18 +265,26 @@ footer {
 
 #artistas-emergentes {
   background-color: #f5f5f5;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-#artistas-emergentes h2 {
+.titulo-artista-emergente {
   margin-top: 0;
   margin-bottom: 20px;
 }
 
 .artista {
-  width: 100%;
-  max-width: 400px;
+  width: 350px;
   margin-bottom: 20px;
+  margin-right: 20px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
